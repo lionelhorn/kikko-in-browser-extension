@@ -1,0 +1,34 @@
+{
+  "name": "kikko-in-browser-extension",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "@kikko-land/absurd-web-backend": "^0.8.0",
+    "@kikko-land/better-absurd-sql": "^0.0.57",
+    "@kikko-land/wa-sqlite-web-backend": "^0.7.2",
+    "@kikko-land/boono": "^0.2.1",
+    "@kikko-land/kikko": "^0.10.0",
+    "@kikko-land/sql.js": "^1.6.8",
+    "@kikko-land/migrations-plugin": "^0.7.0",
+    "comlink": "^4.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.24",
+    "@types/react-dom": "^18.0.8",
+    "@vitejs/plugin-react": "^2.2.0",
+    "typescript": "^4.6.4",
+    "vite": "^3.2.3",
+    "@crxjs/vite-plugin": "^2.0.0-beta.6",
+    "tailwindcss": "^3.2.4",
+    "postcss": "^8.4.19",
+    "autoprefixer": "^10.4.13"
+  }
+}
