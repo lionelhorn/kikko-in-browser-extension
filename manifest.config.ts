@@ -34,8 +34,7 @@ export const manifest = defineManifest(async (env) => ({
   web_accessible_resources: [{
     matches: [],
     resources: [
-      // "sql-wasm.wasm",
-      // "sql-wasm-debug.wasm",
+      "node_modules/.pnpm/@kikko-land+sql.js@1.6.8/node_modules/@kikko-land/sql.js/dist/sql-wasm.wasm"
     ],
   },
   ],
